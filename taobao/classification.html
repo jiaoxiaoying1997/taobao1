@@ -3,77 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>商品分类</title>
-		<style type="text/css">
-			*{
-				 margin: 0;
-		         padding: 0; 
-		         font-size: 20px;  
-		         background-color: #FFFAF0;
-			}
-			a{
-				text-decoration: none;
-			}
-			ul,li{
-				list-style-type: none;
-			}
-			#head{
-				width: 100%;
-				top: 0px;
-				right: auto;
-				position: fixed;
-			}
-			#head a{
-				text-decoration: none;
-			}
-			#head img{
-				padding-top: 20px;
-				padding-left: 20px;
-				width: 60px;
-				height: 60px;
-			}
-			.a{
-				margin-left: 20px;
-				padding-left: 10px;
-				font-size: 35px;
-			}
-			#left{
-				padding-top: 100px;	
-				  display:-webkit-flex;
-			      overflow:auto; 	
-			      float: left;
-			      
-			}
-			.leftnav{
-				width: 200px;
-				
-			}
-			.leftnav a{
-				background-color: aliceblue;
-				text-align: center;
-				line-height: 100px;
-				width: 200px;
-				height: 100px;
-				display: block;
-				color: #000;
-				font-size: 40px;	
-			}
-			 a:hover{
-				background-color: antiquewhite;
-				color: gainsboro;
-			}
-			.leftnav li{
-				height: 100px;
-			}
-			#right{
-				float: right;
-				padding-top: 130px;
-				padding-right: 600px;
-			}
-			
-			.right_like p{
-				font-size: 35px;
-			}
-		</style>
+		<link rel="stylesheet" href="css/classify_css.css" />
 	</head>
 	<body>
 		<!--头部导航栏 -->
@@ -110,10 +40,133 @@
 		  </div>
 		<!--右侧数据栏 -->
 		<div id="right">
+			<!--第一层 -->
 			<div class="right_like">
 				<p> 猜你喜欢</p>	
 			</div>
-			
+			<div class="right_goods">
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/a01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/a02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/a03.jpg" /> </li>
+					</a>
+				</ul>
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/b01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/b02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/b03.jpg" /> </li>
+					</a>
+				</ul>
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/c01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/c02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/c03.jpg" /> </li>
+					</a>
+				</ul>
+			</div>
+		
+		<!--第二层 -->
+		<div class="right_like">
+				<p> 外套</p>	
+			</div>
+			<div class="right_goods">
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/d01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/d02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/d03.jpg" /> </li>
+					</a>
+				</ul>
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/e01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/e02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/e03.jpg" /> </li>
+					</a>
+				</ul>
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/a01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/a02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/a03.jpg" /> </li>
+					</a>
+				</ul>
+			</div>
+		
+		<!--第三层-->
+		<div class="right_like">
+				<p> 上装</p>	
+			</div>
+			<div class="right_goods">
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/b01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/b02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/b03.jpg" /> </li>
+					</a>
+				</ul>
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/c01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/c02.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/c03.jpg" /> </li>
+					</a>
+				</ul>
+			</div>
+		
+		<!--第四层 -->
+		<div class="right_like">
+				<p>流行趋势</p>	
+			</div>
+			<div class="right_goods">
+				<ul class="right_goods_ul">
+					<a href="##">
+						<li style="float: left;"><img src="img/a01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/b01.jpg" /> </li>
+					</a>
+					<a href="##">
+						<li style="float: left;"><img src="img/c01.jpg" /> </li>
+					</a>
+				</ul>
+			</div>
+		
 		
 		</div>
 		
